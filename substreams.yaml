@@ -1,7 +1,7 @@
 specVersion: v0.1.0
 package:
   name: stellar
-  version: v0.1.2
+  version: v0.1.3
   url: https://github.com/streamingfast/substreams-stellar
   image: ./logo.png
   doc: |
@@ -13,4 +13,3 @@ protobuf:
   descriptorSets:
     - module: buf.build/streamingfast/firehose-stellar
     - module: buf.build/protocolbuffers/wellknowntypes
-
