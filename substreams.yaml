@@ -1,11 +1,11 @@
 specVersion: v0.1.0
 package:
   name: stellar
-  version: v0.1.1
+  version: v0.1.2
   url: https://github.com/streamingfast/substreams-stellar
   image: ./logo.png
   doc: |
-    These substreams modules is bundling lib and proto files descriptor for stellar chain 
+    These substreams modules is bundling lib and proto files descriptor for stellar chain
 
 network: stellar
 
@@ -13,3 +13,4 @@ protobuf:
   descriptorSets:
     - module: buf.build/streamingfast/firehose-stellar
     - module: buf.build/protocolbuffers/wellknowntypes
+
